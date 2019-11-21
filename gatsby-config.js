@@ -4,7 +4,7 @@ require("dotenv").config({
 });
 const {
   NODE_ENV,
-  URL: NETLIFY_SITE_URL = "https://angry-galileo-a8762c.netlify.com",
+  URL: NETLIFY_SITE_URL = "https://tsv-zorneding-fuge.netlify.com",
   DEPLOY_PRIME_URL: NETLIFY_DEPLOY_URL = NETLIFY_SITE_URL,
   CONTEXT: NETLIFY_ENV = NODE_ENV
 } = process.env;
@@ -16,7 +16,7 @@ module.exports = {
   siteMetadata: {
     title,
     section: `Fit und Gesund Erwachsene`,
-    description: `Die Tischtennis Abteilung des TSV Zorneding 1920 e.V. besteht aus ca. 90 Mitgliedern, davon etwa 40 Jugendliche und Kinder. Das Aushängeschild ist die 1. Damenmannschaft welche aktuell in der Oberliga Bayern spielt. Auf dieser Seite Informationen über Trainingszeiten, Veranstaltungen und unseren Mannschaften.`,
+    description: ``,
     author: `TSV Zorneding 1920 e.V.`,
     social: {
       facebook: ``,
