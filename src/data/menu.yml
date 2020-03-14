@@ -1,5 +1,6 @@
 menu_entry:
-  - page: /trainingszeiten
-    title: Trainingszeiten
-  - page: /wirbelsaeulengymnastik
-    title: Wirbelsäulengymnastik
+  - page: ''
+    title: Übungsprogramm
+    menu_entry:
+      - title: Fitnesss
+        page: /uebungsprogramm/fitness
